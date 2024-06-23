@@ -1,0 +1,147 @@
+.navbar-mobile {
+  background-color: #1b232d;
+}
+
+.navbar-mobile button:nth-child(1) {
+  background: #5d6269;
+}
+
+.sidebar {
+  background-color: #1b232d;
+}
+
+.sidebar > .sidebar-itens > .sidebar-titulo > h2 {
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.sidebar > .sidebar-itens > .sidebar-container > .dropdown > .dropdown-toggle {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #212a35;
+}
+
+.sidebar
+  > .sidebar-itens
+  > .sidebar-container
+  > .dropdown
+  > .dropdown-toggle
+  > .dropdown-toggle-itens {
+  width: 100px;
+}
+
+.sidebar > .sidebar-itens > .sidebar-container > .dropdown > .dropdown-menu {
+  width: 90%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar > .sidebar-itens > .sidebar-container > .sidebar-caminhos {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.sidebar > .sidebar-itens > .sidebar-container > .sidebar-caminhos p {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+.sidebar > .sidebar-itens > .sidebar-container > .sidebar-caminhos ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar > .sidebar-itens > .sidebar-container > .sidebar-caminhos ul li {
+  padding: 12px 20px;
+}
+
+.sidebar > .sidebar-itens > .sidebar-container > .sidebar-caminhos ul li:hover {
+  background-color: #212a35;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sidebar
+  > .sidebar-itens
+  > .sidebar-container
+  > .sidebar-caminhos
+  ul
+  li[data-active="true"] {
+  background-color: #212a35;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.lucros {
+  padding: 0;
+  border-left: 5px solid;
+  background: #1b232d;
+}
+
+.lucros:nth-child(1) {
+  border-left: 5px solid #ffae16;
+}
+
+.lucros > .lucros-itens {
+  height: 50px;
+}
+
+.lucros > .lucros-itens span {
+  font-size: 14px;
+}
+
+.lucros {
+  letter-spacing: 1.2px;
+  color: #626262;
+}
+
+.lucros > .lucros-itens-icon {
+  font-size: 36px;
+  color: #cacaca;
+}
+
+.entregas,
+.projetos,
+.funcionarios {
+  padding: 0;
+  border: none;
+  background: #1b232d;
+}
+
+.entregas > .entregas-grafico,
+.projetos > .projetos-grafico,
+.funcionarios {
+  padding: 20px 15px;
+}
+
+.projetos > .projetos-grafico {
+  height: 80%;
+  justify-content: space-around;
+  display: flex;
+}
+
+.funcionarios > .funcionarios-lista {
+  padding: 0;
+  list-style: none;
+}
+
+.funcionarios > .funcionarios-lista > .funcionarios-lista-cabecalho {
+  height: 60px;
+}
+
+.funcionarios > .funcionarios-lista > .funcionarios-lista-item {
+  height: 70px;
+}
+
+.funcionarios > .funcionarios-lista > .funcionarios-lista-item > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#footer {
+  background-color: #1b232d;
+}

@@ -1,0 +1,26 @@
+*,
+body,
+p,
+span,
+button,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  --text-color: #fff;
+
+  color: var(--text-color);
+}
+
+p {
+  font-size: 16px;
+}
+
+body {
+  background-color: #131920;
+}
